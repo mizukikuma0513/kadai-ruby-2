@@ -6,7 +6,7 @@ def fizzbuzz(num)
   elsif num % 5 == 0
      "Buzz"
   else
-    return num.to_s
+    return num
   end
 end
 num_max = 100
